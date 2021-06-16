@@ -1,0 +1,65 @@
+*{
+    font-family:Shadows Into Light;
+    font-size: 16px;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+} 
+body {
+	background: #000;
+}
+h5 {
+	display: block;
+}
+.flex-container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #444;
+	margin: 20px;
+}
+.form {
+	min-width: 350px;
+	max-height: ;
+	flex: 1;
+	text-align: center;
+}
+.form div {
+	margin: 7px;
+}
+.form_img {
+	flex: 1;
+	display: flex;
+
+}
+.form_img img{
+	min-width: 20%;
+	max-width: 60%;
+	margin: auto;
+	border-radius: 50%;
+}
+.form_section-radio h6 {
+	display: inline;
+	font-size: 20px;
+}
+.reset, .submit{
+
+}
+input , #person,option,optgroup ,textarea{
+	color: #000;
+	font-size: 18px;
+	margin: 7px;
+}
+#hombre,#mujer,#nose {
+	font-size: 12px;
+}
+textarea {
+	min-width: 300px;
+	max-width: 600px;
+	margin:auto ;
+}
+.form_section-cb{
+    
+}
